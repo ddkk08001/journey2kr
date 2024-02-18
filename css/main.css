@@ -1,0 +1,157 @@
+body {
+    text-decoration: none;
+}
+
+/* 메인화면 관련 디자인 */
+.header {
+    background-image: url("../images/mainscreen.png");
+    background-size: cover;
+    background-position: center center;
+    height: 900px;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.header .title h1 {
+    font-size: 60px;
+    color: black;
+    text-shadow: -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white, 3px 3px 0 white;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.header .title p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.header .title button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+
+.header .title button:hover {
+    transition: 0.5s ease;
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
+
+/* 이벤트성 화면 (카운트 다운 등등) 관련 디자인 */
+.eventCount {
+    display: flex;
+    flex-direction: column;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+    background-image: url(../images/cherrymaintime.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    min-height: 450px;
+}
+
+.acontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.count {
+    text-align: center;
+    margin-bottom: 75px;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+.count span{
+    font-size: 30px
+}
+
+.eventCount button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+
+.eventCount button:hover {
+    transition: 0.5s ease;
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
+
+.aboutNavTitle {
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+.aboutNavExp {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+}
+
+.aboutNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 250px;
+    text-decoration: none;
+    text-decoration-color: none;
+    text-decoration-line: none;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.aboutNav .navcard {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+    margin: 150px 40px;
+}
+
+.aboutNav .navcard .spaceRocket:hover {
+    transition: 0.5 ease;
+    color: aquamarine;
+    font-size: 30px;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+.aboutNav .navcard .satellite:hover {
+    transition: 0.5 ease;
+    font-size: 30px;
+    color: aquamarine;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
